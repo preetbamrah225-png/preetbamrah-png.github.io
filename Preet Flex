@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Preet Flex - Premium flex printing, LED sign boards, ACP boards, acrylic sign boards, wallpaper installation, vinyl printing, one-way vision, sunpack boards, banners & advertising solutions in Patti, Punjab, India. Call +91 95019 23429.">
+<meta name="keywords" content="Flex Printing Patti Punjab, LED Sign Board Patti, ACP Board Patti, Acrylic Board Patti, Wallpaper Printing Patti, Advertising Agency Patti, flex printing, sign boards, vinyl printing, Preet Flex">
+<meta name="author" content="Preet Flex">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="IN-PB">
+<meta name="geo.placename" content="Patti, Punjab, India">
+<meta property="og:title" content="Preet Flex | Flex Printing & Advertising Solutions in Patti, Punjab">
+<meta property="og:description" content="Premium flex printing, LED sign boards, ACP boards, acrylic boards, wallpaper & advertising solutions in Patti, Punjab. Call +91 95019 23429.">
+<meta property="og:type" content="website">
+<title>Preet Flex | Flex Printing & LED Sign Boards in Patti, Punjab</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Preet Flex",
+  "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051",
+  "telephone": "+919501923429",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Patti",
+    "addressRegion": "Punjab",
+    "addressCountry": "IN"
+  },
+  "description": "Premium flex printing, LED sign boards, ACP boards, acrylic sign boards, wallpaper installation, vinyl printing & advertising solutions in Patti, Punjab, India.",
+  "url": "https://preetflex.com"
+}
+</script>
+<style>
+  :root{
+    --bg:#0a0a0a;
+    --bg-2:#111111;
+    --card:#161616;
+    --orange:#ff6a00;
+    --orange-2:#ff8c2e;
+    --orange-glow:rgba(255,106,0,.45);
+    --text:#f5f5f5;
+    --muted:#9a9a9a;
+    --border:rgba(255,255,255,.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:80px}
+  body{
+    font-family:'Plus Jakarta Sans',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    overflow-x:hidden;
+    line-height:1.6;
+  }
+  h1,h2,h3,h4,.display{font-family:'Sora',sans-serif;}
+  ::selection{background:var(--orange);color:#fff;}
+
+  /* Scrollbar */
+  ::-webkit-scrollbar{width:10px}
+  ::-webkit-scrollbar-track{background:#000}
+  ::-webkit-scrollbar-thumb{background:linear-gradient(var(--orange),#7a3000);border-radius:10px}
+
+  /* Noise overlay */
+  .noise::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.035;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Gradient blobs */
+  .blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5;pointer-events:none;z-index:0}
+
+  /* Nav */
+  .nav-link{position:relative;transition:color .3s}
+  .nav-link::after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:2px;background:var(--orange);transition:width .3s}
+  .nav-link:hover{color:var(--orange)}
+  .nav-link:hover::after{width:100%}
+
+  /* Buttons */
+  .btn-primary{
+    background:linear-gradient(135deg,var(--orange),var(--orange-2));
+    color:#fff;font-weight:700;
+    transition:all .35s cubic-bezier(.4,0,.2,1);
+    box-shadow:0 10px 30px -8px var(--orange-glow);
+  }
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 40px -8px var(--orange-glow)}
+  .btn-wa{
+    background:#25D366;color:#fff;font-weight:700;
+    transition:all .35s;
+    box-shadow:0 10px 30px -8px rgba(37,211,102,.5);
+  }
+  .btn-wa:hover{transform:translateY(-2px);background:#1ebe5a}
+  .btn-ghost{
+    background:transparent;border:1.5px solid var(--border);color:#fff;font-weight:600;
+    transition:all .35s;
+  }
+  .btn-ghost:hover{border-color:var(--orange);color:var(--orange)}
+
+  /* Card */
+  .card{
+    background:linear-gradient(180deg,#161616,#0e0e0e);
+    border:1px solid var(--border);
+    border-radius:18px;
+    transition:all .4s cubic-bezier(.4,0,.2,1);
+    position:relative;overflow:hidden;
+  }
+  .card::before{
+    content:"";position:absolute;inset:0;
+    background:radial-gradient(400px circle at var(--mx,50%) var(--my,0%),rgba(255,106,0,.12),transparent 40%);
+    opacity:0;transition:opacity .4s;pointer-events:none;
+  }
+  .card:hover::before{opacity:1}
+  .card:hover{transform:translateY(-6px);border-color:rgba(255,106,0,.35)}
+
+  /* Hero */
+  .hero-grid{
+    background-image:
+      linear-gradient(rgba(255,106,0,.05) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,106,0,.05) 1px,transparent 1px);
+    background-size:60px 60px;
+    mask-image:radial-gradient(ellipse 80% 60% at 50% 40%,#000 30%,transparent 70%);
+  }
+
+  /* Animated gradient text */
+  .gradient-text{
+    background:linear-gradient(120deg,#ff6a00,#ffae5b,#ff6a00);
+    background-size:200% auto;
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    animation:shine 4s linear infinite;
+  }
+  @keyframes shine{to{background-position:200% center}}
+
+  /* Marquee */
+  .marquee{display:flex;gap:48px;animation:marquee 28s linear infinite;white-space:nowrap}
+  @keyframes marquee{to{transform:translateX(-50%)}}
+
+  /* Gallery */
+  .gallery-item{position:relative;overflow:hidden;border-radius:16px;cursor:pointer}
+  .gallery-item img{transition:transform .6s cubic-bezier(.4,0,.2,1);width:100%;height:100%;object-fit:cover}
+  .gallery-item:hover img{transform:scale(1.08)}
+  .gallery-overlay{
+    position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.85) 100%);
+    opacity:0;transition:opacity .4s;
+    display:flex;align-items:flex-end;padding:20px;
+  }
+  .gallery-item:hover .gallery-overlay{opacity:1}
+  .gallery-tag{
+    position:absolute;top:14px;left:14px;
+    background:rgba(255,106,0,.95);color:#fff;
+    font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;
+    letter-spacing:.5px;text-transform:uppercase;
+  }
+
+  /* Lightbox */
+  .lightbox{
+    position:fixed;inset:0;background:rgba(0,0,0,.95);z-index:200;
+    display:none;align-items:center;justify-content:center;padding:20px;
+  }
+  .lightbox.active{display:flex;animation:fadeIn .3s}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+  /* Floating buttons */
+  .float-btn{
+    position:fixed;right:20px;z-index:90;
+    width:56px;height:56px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 24px rgba(0,0,0,.3);
+    transition:transform .3s;
+    color:#fff;font-size:22px;
+  }
+  .float-btn:hover{transform:scale(1.1)}
+  .float-call{bottom:90px;background:linear-gradient(135deg,var(--orange),var(--orange-2))}
+  .float-wa{bottom:20px;background:#25D366}
+  .float-btn::before{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    animation:pulse 2s infinite;
+  }
+  .float-call::before{box-shadow:0 0 0 0 var(--orange-glow)}
+  .float-wa::before{box-shadow:0 0 0 0 rgba(37,211,102,.5)}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 var(--orange-glow)}
+    70%{box-shadow:0 0 0 16px transparent}
+    100%{box-shadow:0 0 0 0 transparent}
+  }
+
+  /* Reveal */
+  .reveal{opacity:0;transform:translateY(40px);transition:all .8s cubic-bezier(.4,0,.2,1)}
+  .reveal.visible{opacity:1;transform:translateY(0)}
+
+  /* Section heading */
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:6px 14px;border-radius:30px;
+    background:rgba(255,106,0,.1);border:1px solid rgba(255,106,0,.25);
+    color:var(--orange);font-size:13px;font-weight:600;letter-spacing:.5px;
+  }
+
+  /* Stats counter */
+  .stat-num{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,3.5rem)}
+
+  /* Map */
+  .map-frame{filter:grayscale(.4) invert(.92) contrast(.9) hue-rotate(180deg)}
+
+  /* Mobile menu */
+  .mobile-menu{transform:translateX(100%);transition:transform .4s cubic-bezier(.4,0,.2,1)}
+  .mobile-menu.open{transform:translateX(0)}
+
+  /* Filter buttons */
+  .filter-btn{
+    padding:8px 18px;border-radius:30px;font-size:13px;font-weight:600;
+    background:#1a1a1a;border:1px solid var(--border);color:var(--muted);
+    transition:all .3s;cursor:pointer;
+  }
+  .filter-btn.active{background:var(--orange);color:#fff;border-color:var(--orange)}
+  .filter-btn:hover:not(.active){border-color:var(--orange);color:#fff}
+
+  /* Section divider */
+  .divider{
+    height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);
+  }
+
+  /* Process line */
+  .process-line{
+    position:absolute;left:50%;top:0;bottom:0;width:2px;
+    background:linear-gradient(180deg,transparent,var(--orange),transparent);
+    transform:translateX(-50%);
+  }
+
+  @media (max-width:768px){
+    .hero-grid{background-size:40px 40px}
+  }
+</style>
+</head>
+<body class="noise">
+
+<!-- Floating Buttons -->
+<a href="tel:+919501923429" class="float-btn float-call" aria-label="Call Now"><i class="fas fa-phone"></i></a>
+<a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="float-btn float-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+<!-- NAVBAR -->
+<header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/70 border-b border-white/5">
+  <nav class="max-w-7xl mx-auto px-5 lg:px-8 h-[70px] flex items-center justify-between">
+    <a href="#home" class="flex items-center gap-2.5">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center font-extrabold text-white shadow-lg shadow-orange-500/30">PF</div>
+      <div class="leading-tight">
+        <div class="font-extrabold text-lg tracking-tight" style="font-family:'Sora'">Preet Flex</div>
+        <div class="text-[10px] tracking-[2px] text-orange-400 uppercase">Patti • Punjab</div>
+      </div>
+    </a>
+
+    <ul class="hidden lg:flex items-center gap-9 text-sm font-medium">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#process" class="nav-link">Process</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="hidden lg:flex items-center gap-3">
+      <a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="btn-wa px-5 py-2.5 rounded-full text-sm flex items-center gap-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="tel:+919501923429" class="btn-primary px-5 py-2.5 rounded-full text-sm flex items-center gap-2"><i class="fas fa-phone-volume"></i> +91 95019 23429</a>
+    </div>
+
+    <button id="menuBtn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 text-white" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile Menu -->
+<div id="mobileMenu" class="mobile-menu fixed top-0 right-0 bottom-0 w-[80%] max-w-sm bg-[#0b0b0b] z-[60] p-7 border-l border-white/10 lg:hidden">
+  <div class="flex items-center justify-between mb-10">
+    <span class="font-bold text-lg" style="font-family:'Sora'">Menu</span>
+    <button id="closeMenu" class="w-10 h-10 rounded-lg bg-white/5"><i class="fas fa-times"></i></button>
+  </div>
+  <ul class="space-y-5 text-lg font-medium">
+    <li><a href="#home" class="mob-link block">Home</a></li>
+    <li><a href="#services" class="mob-link block">Services</a></li>
+    <li><a href="#gallery" class="mob-link block">Gallery</a></li>
+    <li><a href="#about" class="mob-link block">About</a></li>
+    <li><a href="#process" class="mob-link block">Process</a></li>
+    <li><a href="#contact" class="mob-link block">Contact</a></li>
+  </ul>
+  <div class="mt-10 space-y-3">
+    <a href="tel:+919501923429" class="btn-primary w-full px-5 py-3.5 rounded-xl flex items-center justify-center gap-2"><i class="fas fa-phone-volume"></i> Call +91 95019 23429</a>
+    <a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="btn-wa w-full px-5 py-3.5 rounded-xl flex items-center justify-center gap-2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="home" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+  <div class="hero-grid absolute inset-0 z-0"></div>
+  <div class="blob" style="width:520px;height:520px;background:#ff6a00;top:-100px;right:-100px"></div>
+  <div class="blob" style="width:400px;height:400px;background:#7a2e00;bottom:-100px;left:-100px;opacity:.7"></div>
+
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal">
+      <div class="eyebrow mb-6"><span class="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span> Trusted Printing & Advertising Partner</div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight" style="font-family:'Sora'">
+        Premium <span class="gradient-text">Flex Printing</span> & Sign Boards in Patti, Punjab
+      </h1>
+      <p class="mt-6 text-lg text-gray-400 max-w-xl">
+        From LED sign boards to ACP, acrylic, wallpaper & vinyl printing — Preet Flex delivers bold, durable advertising solutions that make your brand impossible to ignore.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="tel:+919501923429" class="btn-primary px-7 py-4 rounded-full flex items-center gap-2.5 text-base">
+          <i class="fas fa-phone-volume"></i> Call Now: +91 95019 23429
+        </a>
+        <a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="btn-wa px-7 py-4 rounded-full flex items-center gap-2.5 text-base">
+          <i class="fab fa-whatsapp text-xl"></i> WhatsApp Quote
+        </a>
+      </div>
+
+      <div class="mt-10 flex flex-wrap items-center gap-6 text-sm text-gray-400">
+        <div class="flex items-center gap-2"><i class="fas fa-check-circle text-orange-500"></i> 12+ Years Experience</div>
+        <div class="flex items-center gap-2"><i class="fas fa-check-circle text-orange-500"></i> Fast Delivery</div>
+        <div class="flex items-center gap-2"><i class="fas fa-check-circle text-orange-500"></i> Premium Materials</div>
+      </div>
+    </div>
+
+    <div class="reveal relative">
+      <div class="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-orange-900/20">
+        <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=900&q=80" alt="Preet Flex printing shop in Patti Punjab" class="w-full h-[480px] object-cover" loading="eager">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 right-6">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center"><i class="fas fa-print text-white"></i></div>
+            <div>
+              <div class="font-bold text-white">Modern Flex Printing</div>
+              <div class="text-xs text-gray-300">High-resolution commercial prints</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating stat cards -->
+      <div class="absolute -top-5 -left-5 hidden md:block bg-[#161616] border border-white/10 rounded-2xl p-4 shadow-xl">
+        <div class="text-2xl font-extrabold text-orange-500" style="font-family:'Sora'">5000+</div>
+        <div class="text-xs text-gray-400">Projects Delivered</div>
+      </div>
+      <div class="absolute -bottom-5 -right-5 hidden md:block bg-[#161616] border border-white/10 rounded-2xl p-4 shadow-xl">
+        <div class="flex items-center gap-2">
+          <div class="flex -space-x-2">
+            <div class="w-7 h-7 rounded-full bg-orange-500 border-2 border-black"></div>
+            <div class="w-7 h-7 rounded-full bg-orange-300 border-2 border-black"></div>
+            <div class="w-7 h-7 rounded-full bg-orange-700 border-2 border-black"></div>
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white">4.9/5 Rating</div>
+            <div class="text-xs text-gray-400">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<section class="py-6 border-y border-white/5 bg-[#0c0c0c] overflow-hidden">
+  <div class="marquee">
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">FLEX PRINTING <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">LED SIGN BOARDS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">ACP BOARDS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">ACRYLIC SIGNS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">WALLPAPER <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">VINYL PRINTING <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">ONE WAY VISION <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">SUNPACK BOARDS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">FLEX PRINTING <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">LED SIGN BOARDS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">ACP BOARDS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">ACRYLIC SIGNS <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">WALLPAPER <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+    <span class="text-2xl font-bold text-gray-700 flex items-center gap-3" style="font-family:'Sora'">VINYL PRINTING <i class="fas fa-circle text-[6px] text-orange-500"></i></span>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20 lg:py-28 relative">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto reveal">
+      <div class="eyebrow mb-5"><i class="fas fa-bolt"></i> Our Services</div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight" style="font-family:'Sora'">
+        Complete Advertising & Printing <span class="gradient-text">Solutions</span>
+      </h2>
+      <p class="mt-5 text-gray-400">From concept to installation — everything your brand needs to stand out, all under one roof in Patti, Punjab.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
+      <!-- Service 1 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-print"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">Flex Printing</h3>
+        <p class="text-gray-400 text-sm">High-resolution flex prints for hoardings, banners & shop fronts. Weather-resistant and vibrantly colored.</p>
+      </div>
+      <!-- Service 2 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-lightbulb"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">LED Sign Boards</h3>
+        <p class="text-gray-400 text-sm">Eye-catching illuminated LED boards — 3D letters, channel letters & glow signs for 24/7 visibility.</p>
+      </div>
+      <!-- Service 3 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-layer-group"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">ACP Boards</h3>
+        <p class="text-gray-400 text-sm">Aluminium Composite Panel boards for premium, long-lasting façade signage and corporate branding.</p>
+      </div>
+      <!-- Service 4 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-square-full"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">Acrylic Sign Boards</h3>
+        <p class="text-gray-400 text-sm">Sleek, modern acrylic letters and signs with laser-cut precision for offices, shops & showrooms.</p>
+      </div>
+      <!-- Service 5 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-paint-roller"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">Wallpaper Installation</h3>
+        <p class="text-gray-400 text-sm">Custom printed wallpapers for homes, offices & commercial spaces. Premium finish, expert fitting.</p>
+      </div>
+      <!-- Service 6 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-sticky-note"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">Vinyl Printing</h3>
+        <p class="text-gray-400 text-sm">Self-adhesive vinyl prints for glass, walls & vehicles. Crisp, durable and full-color printing.</p>
+      </div>
+      <!-- Service 7 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-eye"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">One Way Vision</h3>
+        <p class="text-gray-400 text-sm">See-through perforated vinyl for vehicles & glass — advertise outside, see clearly inside.</p>
+      </div>
+      <!-- Service 8 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-square"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">Sunpack Boards</h3>
+        <p class="text-gray-400 text-sm">Lightweight corrugated plastic boards perfect for temporary signage, election campaigns & events.</p>
+      </div>
+      <!-- Service 9 -->
+      <div class="card p-7 reveal" data-tilt>
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-orange-700/10 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 mb-5"><i class="fas fa-bullhorn"></i></div>
+        <h3 class="text-xl font-bold mb-2" style="font-family:'Sora'">Banners & Advertising</h3>
+        <p class="text-gray-400 text-sm">Complete advertising solutions — banners, hoardings, shop branding & outdoor campaigns.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="py-20 lg:py-28 bg-[#0c0c0c] relative">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto reveal">
+      <div class="eyebrow mb-5"><i class="fas fa-images"></i> Our Work</div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight" style="font-family:'Sora'">
+        Real Projects. <span class="gradient-text">Real Results.</span>
+      </h2>
+      <p class="mt-5 text-gray-400">Browse our gallery of flex prints, sign boards & branding work delivered across Patti and nearby regions.</p>
+    </div>
+
+    <!-- Filter -->
+    <div class="flex flex-wrap justify-center gap-3 mt-10 reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="flex">Flex Printing</button>
+      <button class="filter-btn" data-filter="led">LED Boards</button>
+      <button class="filter-btn" data-filter="acp">ACP & Acrylic</button>
+      <button class="filter-btn" data-filter="wallpaper">Wallpaper</button>
+      <button class="filter-btn" data-filter="vinyl">Vinyl & One-Way</button>
+      <button class="filter-btn" data-filter="branding">Shop Branding</button>
+    </div>
+
+    <!-- Grid -->
+    <div id="galleryGrid" class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="flex" data-src="https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Flex</span>
+        <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=600&q=80" alt="Modern flex printing shop in Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Flex Printing</div><div class="text-white font-bold">Modern Print Shop</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="wallpaper" data-src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Wallpaper</span>
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="Wallpaper installation room Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Wallpaper</div><div class="text-white font-bold">Interior Installation</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="acp" data-src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">ACP</span>
+        <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80" alt="ACP sign board installation Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">ACP Board</div><div class="text-white font-bold">Façade Signage</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="acp" data-src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Acrylic</span>
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80" alt="Acrylic sign board Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Acrylic</div><div class="text-white font-bold">Laser Cut Letters</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="led" data-src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">LED</span>
+        <img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=600&q=80" alt="LED sign board Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">LED Board</div><div class="text-white font-bold">Illuminated Sign</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="vinyl" data-src="https://images.unsplash.com/photo-1635776062127-d379bfcba9f8?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Vinyl</span>
+        <img src="https://images.unsplash.com/photo-1635776062127-d379bfcba9f8?auto=format&fit=crop&w=600&q=80" alt="Vinyl printing Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Vinyl</div><div class="text-white font-bold">Self-Adhesive Print</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="branding" data-src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Outdoor</span>
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80" alt="Outdoor advertisement board Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Outdoor</div><div class="text-white font-bold">Hoarding Board</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="led" data-src="https://images.unsplash.com/photo-1559429752-5a8f30a4c3b6?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Glow</span>
+        <img src="https://images.unsplash.com/photo-1559429752-5a8f30a4c3b6?auto=format&fit=crop&w=600&q=80" alt="Glow sign board Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Glow Sign</div><div class="text-white font-bold">Backlit Board</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="branding" data-src="https://images.unsplash.com/photo-1583912267550-d6c2ac3196c0?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Branding</span>
+        <img src="https://images.unsplash.com/photo-1583912267550-d6c2ac3196c0?auto=format&fit=crop&w=600&q=80" alt="Shop branding project Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Shop Branding</div><div class="text-white font-bold">Retail Front</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="flex" data-src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Digital</span>
+        <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=600&q=80" alt="Digital printing machine Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Digital Print</div><div class="text-white font-bold">Large Format</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="vinyl" data-src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">One-Way</span>
+        <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=600&q=80" alt="One way vision sticker Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">One-Way Vision</div><div class="text-white font-bold">Perforated Vinyl</div></div></div>
+      </div>
+      <div class="gallery-item aspect-[4/5] reveal" data-cat="branding" data-src="https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=1200&q=80">
+        <span class="gallery-tag">Branding</span>
+        <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=600&q=80" alt="Shop front branding Patti Punjab" loading="lazy">
+        <div class="gallery-overlay"><div><div class="text-orange-400 text-xs font-bold uppercase tracking-wide">Branding</div><div class="text-white font-bold">Store Front</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 lg:py-28 relative overflow-hidden">
+  <div class="blob" style="width:400px;height:400px;background:#ff6a00;top:50%;left:-150px;opacity:.25"></div>
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-14 items-center">
+    <div class="reveal relative">
+      <div class="grid grid-cols-2 gap-4">
+        <div class="rounded-2xl overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea7?auto=format&fit=crop&w=500&q=80" alt="Preet Flex workshop Patti Punjab" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-white/10 mt-8">
+          <img src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?auto=format&fit=crop&w=500&q=80" alt="LED sign board installation Patti Punjab" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-white/10">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=80" alt="Digital printing machine work Patti Punjab" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-white/10 mt-8">
+          <img src="https://images.unsplash.com/photo-1620207418302-439b387441b0?auto=format&fit=crop&w=500&q=80" alt="Vinyl printing work Patti Punjab" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="eyebrow mb-5"><i class="fas fa-building"></i> About Preet Flex</div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight" style="font-family:'Sora'">
+        Your Trusted <span class="gradient-text">Advertising Partner</span> in Patti, Punjab
+      </h2>
+      <p class="mt-6 text-gray-400">
+        Preet Flex is a premier flex printing and advertising agency based in Patti, Punjab, India. With over a decade of industry experience, we specialize in delivering premium flex printing, LED sign boards, ACP boards, acrylic sign boards, wallpaper installation, vinyl printing, one-way vision films, sunpack boards, banners, and complete advertising solutions.
+      </p>
+      <p class="mt-4 text-gray-400">
+        From small retail shops to large corporate campaigns, we combine state-of-the-art digital printing machines with skilled craftsmanship to produce signage that's bold, durable, and built to elevate your brand presence.
+      </p>
+
+      <div class="grid sm:grid-cols-2 gap-4 mt-8">
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-orange-500 flex-shrink-0"><i class="fas fa-check"></i></div>
+          <div><div class="font-bold text-white text-sm">Premium Materials</div><div class="text-xs text-gray-500">Long-lasting, weather resistant</div></div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-orange-500 flex-shrink-0"><i class="fas fa-check"></i></div>
+          <div><div class="font-bold text-white text-sm">Expert Installation</div><div class="text-xs text-gray-500">Professional fitting team</div></div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-orange-500 flex-shrink-0"><i class="fas fa-check"></i></div>
+          <div><div class="font-bold text-white text-sm">Fast Turnaround</div><div class="text-xs text-gray-500">Quick production & delivery</div></div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-orange-500 flex-shrink-0"><i class="fas fa-check"></i></div>
+          <div><div class="font-bold text-white text-sm">Competitive Pricing</div><div class="text-xs text-gray-500">Best rates in Patti region</div></div>
+        </div>
+      </div>
+
+      <div class="mt-9 flex flex-wrap gap-4">
+        <a href="tel:+919501923429" class="btn-primary px-6 py-3.5 rounded-full flex items-center gap-2"><i class="fas fa-phone-volume"></i> +91 95019 23429</a>
+        <a href="#gallery" class="btn-ghost px-6 py-3.5 rounded-full flex items-center gap-2"><i class="fas fa-images"></i> View Our Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="py-14 bg-gradient-to-r from-orange-600 to-orange-700 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-20" style="background-image:radial-gradient(circle at 20% 50%,white 1px,transparent 1px);background-size:30px 30px"></div>
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+    <div class="reveal">
+      <div class="stat-num text-white" data-count="12">0</div>
+      <div class="text-orange-100 text-sm font-semibold mt-1 uppercase tracking-wide">Years Experience</div>
+    </div>
+    <div class="reveal">
+      <div class="stat-num text-white" data-count="5000">0</div>
+      <div class="text-orange-100 text-sm font-semibold mt-1 uppercase tracking-wide">Projects Done</div>
+    </div>
+    <div class="reveal">
+      <div class="stat-num text-white" data-count="800">0</div>
+      <div class="text-orange-100 text-sm font-semibold mt-1 uppercase tracking-wide">Happy Clients</div>
+    </div>
+    <div class="reveal">
+      <div class="stat-num text-white" data-count="50">0</div>
+      <div class="text-orange-100 text-sm font-semibold mt-1 uppercase tracking-wide">Designs Daily</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="py-20 lg:py-28 relative">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto reveal">
+      <div class="eyebrow mb-5"><i class="fas fa-cogs"></i> How We Work</div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight" style="font-family:'Sora'">
+        From Idea to <span class="gradient-text">Installation</span>
+      </h2>
+      <p class="mt-5 text-gray-400">A simple, transparent 4-step process designed for speed and quality.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
+      <div class="card p-7 reveal text-center">
+        <div class="w-16 h-16 mx-auto rounded-full bg-orange-500/15 border border-orange-500/40 flex items-center justify-center text-2xl font-extrabold text-orange-500 mb-4" style="font-family:'Sora'">01</div>
+        <h3 class="font-bold text-lg mb-2" style="font-family:'Sora'">Consultation</h3>
+        <p class="text-sm text-gray-400">Share your requirement via call or WhatsApp. We discuss design, size & budget.</p>
+      </div>
+      <div class="card p-7 reveal text-center">
+        <div class="w-16 h-16 mx-auto rounded-full bg-orange-500/15 border border-orange-500/40 flex items-center justify-center text-2xl font-extrabold text-orange-500 mb-4" style="font-family:'Sora'">02</div>
+        <h3 class="font-bold text-lg mb-2" style="font-family:'Sora'">Design & Quote</h3>
+        <p class="text-sm text-gray-400">Our designers create a preview and provide a transparent quote within hours.</p>
+      </div>
+      <div class="card p-7 reveal text-center">
+        <div class="w-16 h-16 mx-auto rounded-full bg-orange-500/15 border border-orange-500/40 flex items-center justify-center text-2xl font-extrabold text-orange-500 mb-4" style="font-family:'Sora'">03</div>
+        <h3 class="font-bold text-lg mb-2" style="font-family:'Sora'">Production</h3>
+        <p class="text-sm text-gray-400">We print & fabricate using premium materials and modern machines.</p>
+      </div>
+      <div class="card p-7 reveal text-center">
+        <div class="w-16 h-16 mx-auto rounded-full bg-orange-500/15 border border-orange-500/40 flex items-center justify-center text-2xl font-extrabold text-orange-500 mb-4" style="font-family:'Sora'">04</div>
+        <h3 class="font-bold text-lg mb-2" style="font-family:'Sora'">Installation</h3>
+        <p class="text-sm text-gray-400">Our team installs at your location — clean, fast and professionally.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="py-20 lg:py-28 bg-[#0c0c0c]">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto reveal">
+      <div class="eyebrow mb-5"><i class="fas fa-star"></i> Testimonials</div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight" style="font-family:'Sora'">
+        What Our <span class="gradient-text">Clients Say</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-14">
+      <div class="card p-7 reveal">
+        <div class="flex text-orange-500 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="text-gray-300 text-sm leading-relaxed">"Preet Flex made an LED sign board for my shop in Patti. The quality and brightness are amazing. Highly recommended for any signage work in Punjab."</p>
+        <div class="flex items-center gap-3 mt-5 pt-5 border-t border-white/5">
+          <div class="w-11 h-11 rounded-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center font-bold">RS</div>
+          <div><div class="font-bold text-sm">Rajinder Singh</div><div class="text-xs text-gray-500">Shop Owner, Patti</div></div>
+        </div>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="flex text-orange-500 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="text-gray-300 text-sm leading-relaxed">"Got ACP board and acrylic letters for my clinic. Premium finish and very professional installation. Preet Flex is the best advertising agency in Patti."</p>
+        <div class="flex items-center gap-3 mt-5 pt-5 border-t border-white/5">
+          <div class="w-11 h-11 rounded-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center font-bold">MK</div>
+          <div><div class="font-bold text-sm">Dr. Manpreet Kaur</div><div class="text-xs text-gray-500">Clinic Owner, Patti</div></div>
+        </div>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="flex text-orange-500 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="text-gray-300 text-sm leading-relaxed">"Vinyl printing and one-way vision for my car was done perfectly. Fast service and fair pricing. Will definitely use Preet Flex again."</p>
+        <div class="flex items-center gap-3 mt-5 pt-5 border-t border-white/5">
+          <div class="w-11 h-11 rounded-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center font-bold">AS</div>
+          <div><div class="font-bold text-sm">Amandeep Singh</div><div class="text-xs text-gray-500">Businessman, Patti</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 relative overflow-hidden">
+  <div class="max-w-6xl mx-auto px-5 lg:px-8">
+    <div class="relative rounded-3xl overflow-hidden p-10 lg:p-16 text-center reveal" style="background:linear-gradient(135deg,#1a1a1a,#0a0a0a);border:1px solid rgba(255,106,0,.25)">
+      <div class="blob" style="width:300px;height:300px;background:#ff6a00;top:-100px;left:50%;transform:translateX(-50%);opacity:.4"></div>
+      <div class="relative z-10">
+        <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight" style="font-family:'Sora'">Ready to Make Your Brand <span class="gradient-text">Stand Out?</span></h2>
+        <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Call us today for a free quote on flex printing, sign boards, wallpaper or any advertising needs in Patti, Punjab.</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <a href="tel:+919501923429" class="btn-primary px-8 py-4 rounded-full flex items-center gap-2 text-base"><i class="fas fa-phone-volume"></i> Call +91 95019 23429</a>
+          <a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="btn-wa px-8 py-4 rounded-full flex items-center gap-2 text-base"><i class="fab fa-whatsapp text-xl"></i> WhatsApp Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 lg:py-28 relative">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto reveal">
+      <div class="eyebrow mb-5"><i class="fas fa-headset"></i> Contact Us</div>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight" style="font-family:'Sora'">
+        Get in <span class="gradient-text">Touch</span>
+      </h2>
+      <p class="mt-5 text-gray-400">Reach out to Preet Flex for all your printing and advertising needs in Patti, Punjab.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-5 gap-8 mt-14">
+      <!-- Info -->
+      <div class="lg:col-span-2 space-y-5 reveal">
+        <a href="tel:+919501923429" class="card p-6 flex items-center gap-4 block hover:border-orange-500/40">
+          <div class="w-14 h-14 rounded-2xl bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 flex-shrink-0"><i class="fas fa-phone-volume"></i></div>
+          <div>
+            <div class="text-xs text-gray-500 uppercase tracking-wide">Call Us</div>
+            <div class="font-bold text-white text-lg">+91 95019 23429</div>
+            <div class="text-xs text-gray-500 mt-0.5">Mon-Sun: 9am - 8pm</div>
+          </div>
+        </a>
+
+        <a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="card p-6 flex items-center gap-4 block hover:border-green-500/40">
+          <div class="w-14 h-14 rounded-2xl bg-green-500/15 border border-green-500/30 flex items-center justify-center text-2xl text-green-500 flex-shrink-0"><i class="fab fa-whatsapp"></i></div>
+          <div>
+            <div class="text-xs text-gray-500 uppercase tracking-wide">WhatsApp</div>
+            <div class="font-bold text-white text-lg">+91 95019 23429</div>
+            <div class="text-xs text-gray-500 mt-0.5">Quick quotes & inquiries</div>
+          </div>
+        </a>
+
+        <div class="card p-6 flex items-center gap-4">
+          <div class="w-14 h-14 rounded-2xl bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 flex-shrink-0"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <div class="text-xs text-gray-500 uppercase tracking-wide">Location</div>
+            <div class="font-bold text-white text-lg">Patti, Punjab</div>
+            <div class="text-xs text-gray-500 mt-0.5">India</div>
+          </div>
+        </div>
+
+        <div class="card p-6 flex items-center gap-4">
+          <div class="w-14 h-14 rounded-2xl bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-2xl text-orange-500 flex-shrink-0"><i class="fas fa-clock"></i></div>
+          <div>
+            <div class="text-xs text-gray-500 uppercase tracking-wide">Working Hours</div>
+            <div class="font-bold text-white text-lg">9:00 AM - 8:00 PM</div>
+            <div class="text-xs text-gray-500 mt-0.5">Open all 7 days</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form + Map -->
+      <div class="lg:col-span-3 reveal">
+        <form id="contactForm" class="card p-7">
+          <h3 class="text-xl font-bold mb-5" style="font-family:'Sora'">Send us a message</h3>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-xs text-gray-400 uppercase tracking-wide font-semibold">Name</label>
+              <input type="text" required class="mt-1.5 w-full bg-[#0c0c0c] border border-white/10 rounded-xl px-4 py-3 text-sm focus:border-orange-500 focus:outline-none transition" placeholder="Your name">
+            </div>
+            <div>
+              <label class="text-xs text-gray-400 uppercase tracking-wide font-semibold">Phone</label>
+              <input type="tel" required class="mt-1.5 w-full bg-[#0c0c0c] border border-white/10 rounded-xl px-4 py-3 text-sm focus:border-orange-500 focus:outline-none transition" placeholder="Your phone number">
+            </div>
+          </div>
+          <div class="mt-4">
+            <label class="text-xs text-gray-400 uppercase tracking-wide font-semibold">Service Required</label>
+            <select class="mt-1.5 w-full bg-[#0c0c0c] border border-white/10 rounded-xl px-4 py-3 text-sm focus:border-orange-500 focus:outline-none transition">
+              <option>Select a service</option>
+              <option>Flex Printing</option>
+              <option>LED Sign Board</option>
+              <option>ACP Board</option>
+              <option>Acrylic Sign Board</option>
+              <option>Wallpaper Installation</option>
+              <option>Vinyl Printing</option>
+              <option>One Way Vision</option>
+              <option>Sunpack Board</option>
+              <option>Banner / Advertising</option>
+            </select>
+          </div>
+          <div class="mt-4">
+            <label class="text-xs text-gray-400 uppercase tracking-wide font-semibold">Message</label>
+            <textarea rows="4" class="mt-1.5 w-full bg-[#0c0c0c] border border-white/10 rounded-xl px-4 py-3 text-sm focus:border-orange-500 focus:outline-none transition resize-none" placeholder="Tell us about your requirement..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary w-full mt-5 px-6 py-4 rounded-xl flex items-center justify-center gap-2 font-bold"><i class="fab fa-whatsapp text-xl"></i> Send via WhatsApp</button>
+          <p class="text-xs text-gray-500 text-center mt-3">Your message will be sent directly to our WhatsApp.</p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="mt-10 rounded-3xl overflow-hidden border border-white/10 reveal">
+      <iframe class="map-frame w-full h-[400px]" loading="lazy" src="https://www.google.com/maps?q=Patti,Punjab,India&output=embed" title="Preet Flex Location - Patti, Punjab, India"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#070707] border-t border-white/5 pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <a href="#home" class="flex items-center gap-2.5 mb-5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center font-extrabold text-white">PF</div>
+          <div class="leading-tight">
+            <div class="font-extrabold text-lg" style="font-family:'Sora'">Preet Flex</div>
+            <div class="text-[10px] tracking-[2px] text-orange-400 uppercase">Patti • Punjab</div>
+          </div>
+        </a>
+        <p class="text-sm text-gray-500 leading-relaxed">Premium flex printing, LED sign boards, ACP boards, acrylic signs, wallpaper & advertising solutions in Patti, Punjab, India.</p>
+        <div class="flex gap-3 mt-5">
+          <a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-green-500 flex items-center justify-center transition" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:+919501923429" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-orange-500 flex items-center justify-center transition" aria-label="Call"><i class="fas fa-phone"></i></a>
+          <a href="#" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-orange-500 flex items-center justify-center transition" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="w-9 h-9 rounded-lg bg-white/5 hover:bg-orange-500 flex items-center justify-center transition" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white mb-5" style="font-family:'Sora'">Our Services</h4>
+        <ul class="space-y-3 text-sm text-gray-500">
+          <li><a href="#services" class="hover:text-orange-500 transition">Flex Printing</a></li>
+          <li><a href="#services" class="hover:text-orange-500 transition">LED Sign Boards</a></li>
+          <li><a href="#services" class="hover:text-orange-500 transition">ACP Boards</a></li>
+          <li><a href="#services" class="hover:text-orange-500 transition">Acrylic Sign Boards</a></li>
+          <li><a href="#services" class="hover:text-orange-500 transition">Wallpaper Installation</a></li>
+          <li><a href="#services" class="hover:text-orange-500 transition">Vinyl & One-Way Vision</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white mb-5" style="font-family:'Sora'">Quick Links</h4>
+        <ul class="space-y-3 text-sm text-gray-500">
+          <li><a href="#home" class="hover:text-orange-500 transition">Home</a></li>
+          <li><a href="#about" class="hover:text-orange-500 transition">About Us</a></li>
+          <li><a href="#gallery" class="hover:text-orange-500 transition">Gallery</a></li>
+          <li><a href="#process" class="hover:text-orange-500 transition">Our Process</a></li>
+          <li><a href="#contact" class="hover:text-orange-500 transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white mb-5" style="font-family:'Sora'">Contact Info</h4>
+        <ul class="space-y-4 text-sm text-gray-500">
+          <li class="flex items-start gap-3"><i class="fas fa-phone-volume text-orange-500 mt-1"></i><a href="tel:+919501923429" class="hover:text-orange-500 transition">+91 95019 23429</a></li>
+          <li class="flex items-start gap-3"><i class="fab fa-whatsapp text-green-500 mt-1"></i><a href="https://wa.me/919501923429" target="_blank" rel="noopener" class="hover:text-orange-500 transition">+91 95019 23429</a></li>
+          <li class="flex items-start gap-3"><i class="fas fa-map-marker-alt text-orange-500 mt-1"></i>Patti, Punjab, India</li>
+          <li class="flex items-start gap-3"><i class="fas fa-clock text-orange-500 mt-1"></i>9:00 AM - 8:00 PM (All days)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="divider my-10"></div>
+    <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
+      <div>© 2025 Preet Flex. All rights reserved.</div>
+      <div class="flex gap-2 items-center text-xs">
+        <span>Flex Printing Patti Punjab</span><span class="text-orange-500">•</span>
+        <span>LED Sign Board Patti</span><span class="text-orange-500">•</span>
+        <span>Advertising Agency Patti</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <button id="lightboxClose" class="absolute top-5 right-5 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-xl text-white z-10"><i class="fas fa-times"></i></button>
+  <img id="lightboxImg" src="" alt="Gallery preview" class="max-w-full max-h-[85vh] rounded-2xl shadow-2xl">
+</div>
+
+<script>
+  // Mobile menu
+  const menuBtn = document.getElementById('menuBtn');
+  const closeMenu = document.getElementById('closeMenu');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', ()=>mobileMenu.classList.add('open'));
+  closeMenu.addEventListener('click', ()=>mobileMenu.classList.remove('open'));
+  document.querySelectorAll('.mob-link').forEach(l=>l.addEventListener('click',()=>mobileMenu.classList.remove('open')));
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('visible');
+        if(e.target.classList.contains('stat-num') || e.target.querySelector('.stat-num')){
+          const num = e.target.classList.contains('stat-num') ? e.target : e.target.querySelector('.stat-num');
+          if(num && !num.dataset.done){animateCount(num);num.dataset.done='1';}
+        }
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // Counter
+  function animateCount(el){
+    const target = +el.dataset.count;
+    let cur = 0;
+    const step = Math.max(1,Math.ceil(target/60));
+    const t = setInterval(()=>{
+      cur += step;
+      if(cur>=target){cur=target;clearInterval(t);}
+      el.textContent = cur.toLocaleString() + (target>=1000?'+':'+');
+    },25);
+  }
+
+  // Card hover glow effect
+  document.querySelectorAll('.card').forEach(card=>{
+    card.addEventListener('mousemove',(e)=>{
+      const r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', (e.clientX-r.left)+'px');
+      card.style.setProperty('--my', (e.clientY-r.top)+'px');
+    });
+  });
+
+  // Gallery filter
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  filterBtns.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      filterBtns.forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      galleryItems.forEach(item=>{
+        if(f==='all' || item.dataset.cat===f){
+          item.style.display='';
+          item.style.opacity='0';
+          setTimeout(()=>item.style.opacity='1',50);
+        } else {
+          item.style.display='none';
+        }
+      });
+    });
+  });
+
+  // Lightbox
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxClose = document.getElementById('lightboxClose');
+  galleryItems.forEach(item=>{
+    item.addEventListener('click',()=>{
+      lightboxImg.src = item.dataset.src;
+      lightbox.classList.add('active');
+      document.body.style.overflow='hidden';
+    });
+  });
+  function closeLightbox(){
+    lightbox.classList.remove('active');
+    document.body.style.overflow='';
+  }
+  lightboxClose.addEventListener('click',closeLightbox);
+  lightbox.addEventListener('click',(e)=>{if(e.target===lightbox)closeLightbox();});
+  document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeLightbox();});
+
+  // Contact form -> WhatsApp
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    const inputs = form.querySelectorAll('input, select, textarea');
+    const name = inputs[0].value;
+    const phone = inputs[1].value;
+    const service = inputs[2].value;
+    const message = inputs[3].value;
+    const text = `*New Inquiry - Preet Flex*%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Service:* ${service}%0A*Message:* ${message}`;
+    window.open(`https://wa.me/919501923429?text=${text}`,'_blank');
+  });
+</script>
+</body>
+</html>
